@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(royalblue, white);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  height: 500px;
+  width: 800px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(80px);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin: 0.5rem;
+}
+.left-col {
+  background: url(/public/images/dentalytis.svg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+}
+.right-col img{
+  height: 200px;
+  width: 200px;
+  /* margin-bottom: -20px; */
+  display: none;
+}
+.right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  /* padding-bottom: 50px; */
+}
+.right-col input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  outline: none;
+  overflow: hidden;
+  color: #fff;
+  font-size: 15px;
+
+}
+.right-col input:focus,
+.right-col input:valid{
+    width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  outline: none;
+  overflow: none;
+}
+::placeholder {
+  color: #fff !important;
+  opacity: 1;
+}
+.link {
+text-decoration: none;
+color: royalblue;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.container .btn{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 967px) {
+ .left-col{
+  display: none;
+ }
+ .container{
+  width: 340px;
+ }
+ .right-col img{
+display: inline;
+margin-bottom: -20px;
+ }
+}
