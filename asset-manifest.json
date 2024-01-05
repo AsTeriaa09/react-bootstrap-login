@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-bootstrap-login/static/css/main.401f3d5c.css",
+    "main.js": "/react-bootstrap-login/static/js/main.8431b754.js",
+    "static/media/dentalytis.svg": "/react-bootstrap-login/static/media/dentalytis.18755afdd723c2c7f1f9.svg",
+    "index.html": "/react-bootstrap-login/index.html",
+    "main.401f3d5c.css.map": "/react-bootstrap-login/static/css/main.401f3d5c.css.map",
+    "main.8431b754.js.map": "/react-bootstrap-login/static/js/main.8431b754.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.401f3d5c.css",
+    "static/js/main.8431b754.js"
+  ]
+}
