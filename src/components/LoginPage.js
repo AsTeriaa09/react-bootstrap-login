@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Login.css";
 import { Link } from "react-router-dom";
-// import logo from "../images/image.png"
+import logo from "../images/image.png"
 
 const LoginPage = () => {
   return (
@@ -12,23 +12,23 @@ const LoginPage = () => {
           <div className="col-lg-6 right-col col-12">
             <form >
               <div className="logo text-center">
-                <img src="/images/image.png" alt="" />
+                <img src={logo} alt="" />
               </div>
 
-              <div class="mb-5">
+              <div className="mb-5">
                 <input
                   type="email"
                   placeholder="Email"
-                  class="form-control shadow-none"
+                  className="form-control shadow-none"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
               </div>
-              <div class="mb-3">
+              <div className="mb-3">
                 <input
                   type="password"
                   placeholder="Password"
-                  class="form-control shadow-none"
+                  className="form-control shadow-none"
                   id="exampleInputPassword1"
                 />
               </div>
@@ -38,7 +38,7 @@ const LoginPage = () => {
                 </Link>
               </div>
 
-              <button type="submit" class="btn my-3">
+              <button type="submit" className="btn my-3">
                 Login
               </button>
               <div className="sign-up">
