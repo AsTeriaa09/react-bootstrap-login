@@ -6,7 +6,8 @@ import logo from "../images/image.png"
 const LoginPage = () => {
   return (
     <>
-      <div className="container">
+    <div className="main-section">
+    <div className="container">
         <div className="row">
           <div className="col-lg-6 left-col col-12"></div>
           <div className="col-lg-6 right-col col-12">
@@ -53,6 +54,8 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
+    </div>
+      
     </>
   );
 };
