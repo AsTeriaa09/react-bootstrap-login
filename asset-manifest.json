@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-bootstrap-login/static/css/main.945760fd.css",
-    "main.js": "/react-bootstrap-login/static/js/main.afcdb16f.js",
+    "main.css": "/react-bootstrap-login/static/css/main.5f1ec86e.css",
+    "main.js": "/react-bootstrap-login/static/js/main.ab8e772b.js",
     "static/media/image.png": "/react-bootstrap-login/static/media/image.0b4dc6dae676360d79e1.png",
     "static/media/dentalytis.svg": "/react-bootstrap-login/static/media/dentalytis.18755afdd723c2c7f1f9.svg",
     "index.html": "/react-bootstrap-login/index.html",
-    "main.945760fd.css.map": "/react-bootstrap-login/static/css/main.945760fd.css.map",
-    "main.afcdb16f.js.map": "/react-bootstrap-login/static/js/main.afcdb16f.js.map"
+    "main.5f1ec86e.css.map": "/react-bootstrap-login/static/css/main.5f1ec86e.css.map",
+    "main.ab8e772b.js.map": "/react-bootstrap-login/static/js/main.ab8e772b.js.map"
   },
   "entrypoints": [
-    "static/css/main.945760fd.css",
-    "static/js/main.afcdb16f.js"
+    "static/css/main.5f1ec86e.css",
+    "static/js/main.ab8e772b.js"
   ]
 }
