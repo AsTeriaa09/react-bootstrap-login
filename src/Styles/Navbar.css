@@ -53,7 +53,7 @@ main {
   align-items: center;
   /* justify-content: center; */
   color: gray;
-  padding: 16px 15px;
+  padding: 12px 10px;
   gap: 15px;
   transition: all 0.5s;
   text-decoration: none;
@@ -61,6 +61,22 @@ main {
   margin: 0 20px;
   border-radius: 15px;
 }
+.link:valid,
+.link:focus{
+    background-color: #fff;
+    transform: scale(1.1);
+    color: #333;
+    text-decoration: none;
+    transition: all 0.5s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.link:valid .icon,
+.link:focus .icon{
+    background-color: lightskyblue;
+    color: #fff;
+    transition: all 0.5s;
+}
+
 .link:hover {
   background-color: #fff;
   transform: scale(1.1);

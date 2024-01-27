@@ -85,7 +85,7 @@ const Navbar = () => {
 
             <Link
               to="#"
-              className="link"
+              className="link my-3"
               activeclassName="active"
               style={{
                 paddingLeft: open ? "15px" : "0px",
