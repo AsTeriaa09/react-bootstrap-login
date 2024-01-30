@@ -8,10 +8,10 @@
   position: fixed;
   width: 75%;
   margin-left: 340px;
-  background-color: #f6f8fa;
+  background-color: #f6f8faf4;
   /* box-shadow: rgba(23, 10, 125, 0.1) 0px 10px 50px; */
   /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
-  box-shadow: rgba(132, 183, 234, 0.2) 0px 8px 24px;
+  box-shadow: rgba(49, 52, 59, 0.114) 0px 8px 24px;
 }
 .right-section img {
   height: 50px;
