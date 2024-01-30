@@ -6,21 +6,25 @@
   margin: 10px 30px;
   border-radius: 12px;
   position: fixed;
-  width: 70%;
-  margin-left: 380px;
+  width: 75%;
+  margin-left: 340px;
+  background-color: #f6f8fa;
+  /* box-shadow: rgba(23, 10, 125, 0.1) 0px 10px 50px; */
+  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+  box-shadow: rgba(132, 183, 234, 0.2) 0px 8px 24px;
 }
 .right-section img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
-.navbar-float {
+/* .navbar-float {
   background-color: #f6f8fa;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 .left-section {
   font-size: 20px;
-  color: gray;
+
 }
 .content {
   padding-top: 300px;
