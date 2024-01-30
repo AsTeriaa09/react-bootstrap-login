@@ -5,10 +5,11 @@ import logo from "../images/image.png";
 import { ImProfile } from "react-icons/im";
 import { LuUserSquare2 } from "react-icons/lu";
 import { FaUsersBetweenLines } from "react-icons/fa6";
-import { FaHome } from "react-icons/fa";
+
 import { FaUserCircle } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import UpperNav from "./UpperNav";
 
 const Navbar = () => {
   const [open, setOpen] = useState(true);
@@ -44,6 +45,7 @@ const Navbar = () => {
           style={{
             width: open ? "300px" : "70px",
             backgroundColor: open ? "#f6f8fa" : "#fff",
+            zIndex: open ? "9999" : "1",
           }}
         >
           <div className="top_section">
@@ -124,10 +126,9 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <main>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-          laudantium?
-        </main>
+        
+        <main> <UpperNav/> </main>
+        
       </div>
     </>
   );

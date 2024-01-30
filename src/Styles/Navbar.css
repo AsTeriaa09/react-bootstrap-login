@@ -13,6 +13,9 @@ main {
 .sidebarr {
   background-color: #f6f8fa;
   height: 100vh;
+  position: fixed;
+  width: 30%;
+  /* z-index: 9999; */
 }
 .top_section {
   display: flex;
@@ -113,11 +116,15 @@ main {
 }
 
 @media screen and (max-width: 767px) {
+  /* .sidebarr{
+    z-index: 9999
+  } */
     .bars {
         font-size: 28px;
         display: block;
         margin-left: 30px;
         display: block;
+      margin-top: 95px;
       }
 }
 
