@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-bootstrap-login/static/css/main.25d3924d.css",
-    "main.js": "/react-bootstrap-login/static/js/main.927fdd9c.js",
+    "main.css": "/react-bootstrap-login/static/css/main.e6944210.css",
+    "main.js": "/react-bootstrap-login/static/js/main.4ce57a98.js",
     "static/media/user.jpg": "/react-bootstrap-login/static/media/user.25182b703ce0aa9b74c7.jpg",
+    "static/media/profile.jpg": "/react-bootstrap-login/static/media/profile.754e2136355ff429d27e.jpg",
     "static/media/image.png": "/react-bootstrap-login/static/media/image.0b4dc6dae676360d79e1.png",
     "static/media/dentalytis.svg": "/react-bootstrap-login/static/media/dentalytis.18755afdd723c2c7f1f9.svg",
     "index.html": "/react-bootstrap-login/index.html",
-    "main.25d3924d.css.map": "/react-bootstrap-login/static/css/main.25d3924d.css.map",
-    "main.927fdd9c.js.map": "/react-bootstrap-login/static/js/main.927fdd9c.js.map"
+    "main.e6944210.css.map": "/react-bootstrap-login/static/css/main.e6944210.css.map",
+    "main.4ce57a98.js.map": "/react-bootstrap-login/static/js/main.4ce57a98.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d3924d.css",
-    "static/js/main.927fdd9c.js"
+    "static/css/main.e6944210.css",
+    "static/js/main.4ce57a98.js"
   ]
 }
