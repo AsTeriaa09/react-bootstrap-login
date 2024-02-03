@@ -9,9 +9,9 @@
   width: 75%;
   margin-left: 340px;
   background-color: #f6f8faf4;
-  /* box-shadow: rgba(23, 10, 125, 0.1) 0px 10px 50px; */
-  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
-  box-shadow: rgba(49, 52, 59, 0.114) 0px 8px 24px;
+  border: 1px solid white;
+  box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.1);
+  /* box-shadow: 0px 2px 4px rgba(15, 15, 15, 0.1);  */
 }
 .right-section img {
   height: 50px;

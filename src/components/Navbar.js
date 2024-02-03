@@ -55,7 +55,6 @@ const Navbar = () => {
               </Link>{" "}
               <p>Dentalytics</p>
             </div>
-
             <div
               className="bars"
               style={{
@@ -66,12 +65,13 @@ const Navbar = () => {
             >
               <IoMenu onClick={toggle} />
             </div>
+           
           </div>
           <hr />
 
           <div className="items">
             <Link
-              to="#"
+              to="/profile"
               className="link"
               activeclassName="active"
               style={{

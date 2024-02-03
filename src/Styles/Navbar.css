@@ -50,6 +50,7 @@ main {
   display: block;
   margin-left: 30px;
   display: none;
+
 }
 .link {
   display: flex;
@@ -124,7 +125,8 @@ main {
         display: block;
         margin-left: 30px;
         display: block;
-      margin-top: 105px;
+        margin-top: 108px;
+    
       }
 }
 
