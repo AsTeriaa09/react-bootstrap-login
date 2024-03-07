@@ -86,7 +86,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="#"
+              to="/"
               className="link my-3"
               activeclassName="active"
               style={{
@@ -106,7 +106,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="#"
+              to="/user"
               className="link"
               activeclassName="active"
               style={{
