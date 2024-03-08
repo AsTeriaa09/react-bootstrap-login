@@ -127,7 +127,7 @@ const Navbar = () => {
           </div>
         </div>
         
-        <main> <UpperNav/> </main>
+        <main className="NavbarMain"> <UpperNav/> </main>
         
       </div>
     </>

@@ -5,17 +5,21 @@
 }
 .containerr {
   display: flex;
+  /* justify-content: space-evenly; */
 }
-main {
-  width: 100%;
+.NavbarMain {
+  width:100%;
   padding: 20px;
+  margin-left: 350px;
+  margin-right: 50px;
 }
 .sidebarr {
   background-color: #f6f8fa;
   height: 100vh;
   position: fixed;
-  width: 30%;
-  /* z-index: 9999; */
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
 }
 .top_section {
   display: flex;
@@ -50,7 +54,6 @@ main {
   display: block;
   margin-left: 30px;
   display: none;
-
 }
 .link {
   display: flex;
@@ -66,19 +69,19 @@ main {
   border-radius: 15px;
 }
 .link:valid,
-.link:focus{
-    background-color: #fff;
-    transform: scale(1.1);
-    color: #333;
-    text-decoration: none;
-    transition: all 0.5s;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.link:focus {
+  background-color: #fff;
+  transform: scale(1.1);
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .link:valid .icon,
-.link:focus .icon{
-    background-color: lightskyblue;
-    color: #fff;
-    transition: all 0.5s;
+.link:focus .icon {
+  background-color: lightskyblue;
+  color: #fff;
+  transition: all 0.5s;
 }
 
 .link:hover {
@@ -89,10 +92,10 @@ main {
   transition: all 0.5s;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.link:hover .icon{
-    background-color: lightskyblue;
-    color: #fff;
-    transition: all 0.5s;
+.link:hover .icon {
+  background-color: lightskyblue;
+  color: #fff;
+  transition: all 0.5s;
 }
 .active {
   background: rgb(123, 194, 239);
@@ -120,14 +123,11 @@ main {
   /* .sidebarr{
     z-index: 9999
   } */
-    .bars {
-        font-size: 28px;
-        display: block;
-        margin-left: 30px;
-        display: block;
-        margin-top: 108px;
-    
-      }
+  .bars {
+    font-size: 28px;
+    display: block;
+    margin-left: 30px;
+    display: block;
+    margin-top: 108px;
+  }
 }
-
-
